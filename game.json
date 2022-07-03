@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 98,
+    "build": 99,
     "major": 4,
     "minor": 0,
     "revision": 0
@@ -9,18 +9,18 @@
   "properties": {
     "adaptGameResolutionAtRuntime": true,
     "folderProject": false,
-    "linuxExecutableFilename": "",
-    "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\CHIPANA\\Desktop\\Willy\\GDevelop_Proyects\\TestGD\\game.json",
+    "pixelsRounding": false,
+    "projectUuid": "f464d044-a0e4-4396-a0c5-1a0a4dbc0428",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useDeprecatedZeroAsDefaultZOrder": true,
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "winExecutableFilename": "",
-    "winExecutableIconFile": "",
     "name": "Proyecto",
+    "description": "",
     "author": "",
     "windowWidth": 800,
     "windowHeight": 600,
@@ -30,68 +30,25 @@
     "verticalSync": false,
     "platformSpecificAssets": {},
     "loadingScreen": {
-      "showGDevelopSplash": true
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
     },
+    "authorIds": [],
+    "categories": [],
+    "playableDevices": [],
     "extensionProperties": [],
-    "extensions": [
-      {
-        "name": "BuiltinObject"
-      },
-      {
-        "name": "BuiltinAudio"
-      },
-      {
-        "name": "BuiltinVariables"
-      },
-      {
-        "name": "BuiltinTime"
-      },
-      {
-        "name": "BuiltinMouse"
-      },
-      {
-        "name": "BuiltinKeyboard"
-      },
-      {
-        "name": "BuiltinJoystick"
-      },
-      {
-        "name": "BuiltinCamera"
-      },
-      {
-        "name": "BuiltinWindow"
-      },
-      {
-        "name": "BuiltinFile"
-      },
-      {
-        "name": "BuiltinNetwork"
-      },
-      {
-        "name": "BuiltinScene"
-      },
-      {
-        "name": "BuiltinAdvanced"
-      },
-      {
-        "name": "Sprite"
-      },
-      {
-        "name": "BuiltinCommonInstructions"
-      },
-      {
-        "name": "BuiltinCommonConversions"
-      },
-      {
-        "name": "BuiltinStringInstructions"
-      },
-      {
-        "name": "BuiltinMathematicalTools"
-      },
-      {
-        "name": "BuiltinExternalLayouts"
-      }
-    ],
     "platforms": [
       {
         "name": "GDevelop JS platform"
@@ -393,16 +350,16 @@
       "v": 61,
       "uiSettings": {
         "grid": false,
-        "gridB": 255,
-        "gridG": 180,
+        "gridType": "rectangular",
+        "gridWidth": 32,
         "gridHeight": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
-        "gridR": 158,
-        "gridWidth": 32,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
         "snap": false,
-        "windowMask": false,
-        "zoomFactor": 0.922
+        "zoomFactor": 0.922,
+        "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
@@ -504,6 +461,7 @@
           "initialVariables": [
             {
               "name": "direccion",
+              "type": "string",
               "value": "izquierda"
             }
           ]
@@ -575,11 +533,13 @@
       ],
       "objects": [
         {
+          "assetStoreId": "",
           "name": "bg_0",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -614,11 +574,13 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "player",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "TopDownMovement",
@@ -797,11 +759,13 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "Angy",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "PlatformerObject",
@@ -854,11 +818,13 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "bulletPlayer",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -893,11 +859,13 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "pared",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -940,11 +908,13 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "bulletAngy",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -979,6 +949,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "height": 32,
           "name": "muroDer",
           "tags": "",
@@ -986,6 +957,7 @@
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -997,6 +969,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "height": 32,
           "name": "muroIzq",
           "tags": "",
@@ -1004,6 +977,7 @@
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Platform",
@@ -1015,11 +989,13 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "Enemigo0",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "PlatformerObject",
@@ -1158,11 +1134,13 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "canonTween",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [
             {
               "name": "Tween",
@@ -1287,11 +1265,13 @@
           ]
         },
         {
+          "assetStoreId": "",
           "name": "buttonTween",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -1326,6 +1306,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "bold": false,
           "italic": false,
           "name": "textButton",
@@ -1334,6 +1315,7 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "string": "Button Tween",
           "font": "",
@@ -1351,94 +1333,74 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": false,
-          "folded": false,
           "name": "Angy //Tiene comportamiento agregado",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "PlatformBehavior::IsMoving"
                   },
                   "parameters": [
                     "Angy",
                     "PlatformerObject"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [],
               "events": [
                 {
-                  "disabled": false,
-                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "KeyPressed"
                       },
                       "parameters": [
                         "",
                         "Left"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "FlipX"
                       },
                       "parameters": [
                         "Angy",
                         "yes"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
-                  "disabled": false,
-                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "KeyPressed"
                       },
                       "parameters": [
                         "",
                         "Right"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "FlipX"
                       },
                       "parameters": [
                         "Angy",
                         ""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 }
               ]
             }
@@ -1450,33 +1412,26 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": false,
-          "folded": false,
           "name": "player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "TopDownMovementBehavior::IsMoving"
                   },
                   "parameters": [
                     "player",
                     "TopDownMovement"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "FixCamera"
                   },
                   "parameters": [
@@ -1489,107 +1444,86 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SetAnimationName"
                   },
                   "parameters": [
                     "player",
                     "\"idle\""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "events": [
                 {
-                  "disabled": false,
-                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "KeyPressed"
                       },
                       "parameters": [
                         "",
                         "Right"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "SetAnimationName"
                       },
                       "parameters": [
                         "player",
                         "\"naveCostado\""
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "FlipX"
                       },
                       "parameters": [
                         "player",
                         "no"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
-                  "disabled": false,
-                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "KeyPressed"
                       },
                       "parameters": [
                         "",
                         "Left"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "SetAnimationName"
                       },
                       "parameters": [
                         "player",
                         "\"naveCostado\""
-                      ],
-                      "subInstructions": []
+                      ]
                     },
                     {
                       "type": {
-                        "inverted": false,
                         "value": "FlipX"
                       },
                       "parameters": [
                         "player",
                         "yes"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 }
               ]
             }
@@ -1601,15 +1535,12 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": false,
           "folded": true,
           "name": "disparo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -1623,34 +1554,27 @@
               "comment2": ""
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "KeyPressed"
                   },
                   "parameters": [
                     "",
                     "a"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [],
-                  "subInstructions": []
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -1659,12 +1583,10 @@
                     "player.PointX(\"Center\")",
                     "player.PointY(\"Center\")",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "AddForceAL"
                   },
                   "parameters": [
@@ -1672,12 +1594,10 @@
                     "270",
                     "500",
                     "1"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -1686,31 +1606,25 @@
                     "Angy.PointX(\"Center\")",
                     "Angy.PointY(\"Center\")",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "events": [
                 {
-                  "disabled": false,
-                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "FlippedX"
                       },
                       "parameters": [
                         "Angy"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "AddForceAL"
                       },
                       "parameters": [
@@ -1718,15 +1632,11 @@
                         "180",
                         "500",
                         "1"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
-                  "disabled": false,
-                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -1736,14 +1646,12 @@
                       },
                       "parameters": [
                         "Angy"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "AddForceAL"
                       },
                       "parameters": [
@@ -1751,11 +1659,9 @@
                         "0",
                         "500",
                         "1"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 }
               ]
             }
@@ -1767,38 +1673,29 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": false,
-          "folded": false,
           "name": "Enemy",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Toujours"
                   },
                   "parameters": [
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [],
               "events": [
                 {
-                  "disabled": false,
-                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "VarObjetTxt"
                       },
                       "parameters": [
@@ -1806,33 +1703,26 @@
                         "direccion",
                         "=",
                         "\"izquierda\""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "PlatformBehavior::SimulateLeftKey"
                       },
                       "parameters": [
                         "Enemigo0",
                         "PlatformerObject"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
-                  "disabled": false,
-                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "VarObjetTxt"
                       },
                       "parameters": [
@@ -1840,35 +1730,28 @@
                         "direccion",
                         "=",
                         "\"derecha\""
-                      ],
-                      "subInstructions": []
+                      ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "inverted": false,
                         "value": "PlatformBehavior::SimulateRightKey"
                       },
                       "parameters": [
                         "Enemigo0",
                         "PlatformerObject"
-                      ],
-                      "subInstructions": []
+                      ]
                     }
-                  ],
-                  "events": []
+                  ]
                 }
               ]
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -1877,14 +1760,12 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarObjetTxt"
                   },
                   "parameters": [
@@ -1892,31 +1773,24 @@
                     "direccion",
                     "=",
                     "\"derecha\""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "FlipX"
                   },
                   "parameters": [
                     "Enemigo0",
                     "yes"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -1925,14 +1799,12 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarObjetTxt"
                   },
                   "parameters": [
@@ -1940,22 +1812,18 @@
                     "direccion",
                     "=",
                     "\"izquierda\""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "FlipX"
                   },
                   "parameters": [
                     "Enemigo0",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ],
           "parameters": []
@@ -1965,15 +1833,11 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": false,
-          "folded": false,
           "name": "TWEEN EXAMPLE GROUP",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -1987,13 +1851,10 @@
               "comment2": ""
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
@@ -2001,33 +1862,27 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SourisBouton"
                   },
                   "parameters": [
                     "",
                     "Left"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [],
-                  "subInstructions": []
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Tween::AddObjectPositionXTween"
                   },
                   "parameters": [
@@ -2038,11 +1893,9 @@
                     "\"bounce\"",
                     "2000",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ],
           "parameters": []
